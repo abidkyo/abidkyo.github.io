@@ -23,7 +23,7 @@ html {
 
 .content {
   margin: auto;
-  width: 90%;
+  width: min(90%, 1080px);
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -33,7 +33,7 @@ html {
 .text {
   margin: auto;
   padding: 5px;
-  width: 100%;
+  width: min(100%, 600px);
   height: auto;
   line-height: 1.5;
 }
@@ -41,8 +41,14 @@ html {
 .pp {
   margin: auto;
   padding: 5px;
-  width: 100%;
+  width: min(100%, 300px);
   height: auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .text {
+    width: 50%;
+  }
 }
 
 /* ---------------------------------------------------------------- */
