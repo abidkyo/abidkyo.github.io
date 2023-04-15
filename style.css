@@ -14,7 +14,7 @@ html {
 .navbar {
   margin: auto;
   padding: 50px 0;
-  width: 60%;
+  width: 85%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -54,7 +54,7 @@ html {
 
 .content {
   margin: auto;
-  width: 60%;
+  width: 90%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -63,27 +63,30 @@ html {
 
 .text {
   margin: auto;
-  padding-left: 5px;
-  width: 60%;
+  padding: 5px;
+  width: 100%;
   height: auto;
-  font-size: 1.2rem;
   line-height: 1.5;
 }
 
 .text h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 700;
 }
 
 .text h2 {
-  font-size: 2.8rem;
+  font-size: 1.5rem;
   font-weight: 300;
+}
+
+.text p {
+  font-size: 1.0rem;
 }
 
 .pp {
   margin: auto;
-  padding-right: 5px;
-  width: 35%;
+  padding: 5px;
+  width: 100%;
   height: auto;
 }
 
