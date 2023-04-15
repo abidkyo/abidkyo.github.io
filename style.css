@@ -26,34 +26,6 @@ html {
   justify-content: space-between;
 }
 
-.navbar ul li {
-  margin: 0 0;
-  list-style: none;
-  display: inline-block;
-  position: relative;
-}
-
-.navbar ul li a {
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #000;
-}
-
-.navbar ul li::after {
-  content: "";
-  height: 3px;
-  width: 0;
-  background: #3f72af;
-  position: absolute;
-  left: 0;
-  bottom: -10px;
-  transition: 0.5s;
-}
-
-.navbar ul li:hover:after {
-  width: 100%;
-}
-
 .content {
   margin: auto;
   width: 90%;
