@@ -11,6 +11,18 @@ html {
   background: #dbe2ef;
 }
 
+svg {
+  fill: #3f72af;
+  width: 1rem;
+  vertical-align: text-bottom;
+}
+
+a {
+  text-decoration: none;
+  color: #3f72af;
+  font-weight: bold;
+}
+
 .header {
   margin: auto;
   padding-top: 50px;
