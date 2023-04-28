@@ -11,6 +11,12 @@ html {
   background: #dbe2ef;
 }
 
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 svg {
   fill: #3f72af;
   width: 1rem;
