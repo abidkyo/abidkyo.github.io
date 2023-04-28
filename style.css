@@ -39,7 +39,7 @@ a {
 .content {
   margin: auto;
   padding-top: 125px;
-  width: min(90%, 1080px);
+  width: min(90%, 960px);
   display: flex;
   flex-wrap: wrap;
   align-items: center;
