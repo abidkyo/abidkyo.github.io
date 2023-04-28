@@ -36,6 +36,13 @@ a {
   cursor: default;
 }
 
+.footer {
+  margin-top: 30px;
+  height: 50px;
+  width: 100%;
+  background: #112d4e;
+}
+
 .content {
   margin: auto;
   padding-top: 125px;
@@ -64,6 +71,9 @@ a {
 @media only screen and (min-width: 768px) {
   .header {
     padding-bottom: 50px;
+  }
+  .footer {
+    margin-top: 50px;
   }
   .text {
     width: 50%;
