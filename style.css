@@ -44,9 +44,12 @@ a {
 
 .footer {
   margin: 0;
-  height: 50px;
+  padding: 35px 0;
   width: 100%;
   background: #112d4e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .content {
@@ -75,9 +78,23 @@ a {
   height: auto;
 }
 
+.contact {
+  padding: 10px 0;
+  width: 204px; /* the widest among 3 */
+  line-height: 1.5;
+  color: #dbe2ef;
+}
+
 @media only screen and (min-width: 768px) {
   .text {
     width: 50%;
+  }
+  .footer {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .contact {
+    width: auto;
   }
 }
 
