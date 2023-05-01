@@ -43,7 +43,7 @@ a {
 }
 
 .footer {
-  margin-top: 30px;
+  margin: 0;
   height: 50px;
   width: 100%;
   background: #112d4e;
@@ -52,6 +52,7 @@ a {
 .content {
   margin: auto;
   padding-top: 145px;
+  padding-bottom: 50px;
   width: min(90%, 960px);
   display: flex;
   flex-wrap: wrap;
@@ -75,9 +76,6 @@ a {
 }
 
 @media only screen and (min-width: 768px) {
-  .footer {
-    margin-top: 50px;
-  }
   .text {
     width: 50%;
   }
